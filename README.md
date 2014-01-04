@@ -1,5 +1,5 @@
-Household_income_in_the_United_States
-=====================================
+Wikpedia page for "Household income in the United States"
+=========================================================
 
 Repository for creating figures on the "Household income in the United States" Wikipedia page. 
 
