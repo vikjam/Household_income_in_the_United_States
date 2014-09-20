@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 dirname = "/Users/vikjam/Documents/git-repos/Household_income_in_the_United_States"
 os.chdir(dirname)
 
-# Download income data
+# Download income data from https://www.census.gov/did/www/saipe/data/statecounty/data/index.html
 inc_url  = "http://www.census.gov/did/www/saipe/downloads/estmod12/est12ALL.xls"
 inc_f    = urllib2.urlopen(inc_url)
 inc_data = inc_f.read()
